@@ -1,4 +1,16 @@
 add 3, 5, 6
-addi 3,4,6
+and 3, 5, 6
+or 3, 5, 6
+xor 3, 5, 6
+sra 3, 5, 2
+srl 3, 5, 2
+sll 3, 5, 2
+addi 3, 5, 16
+andi 3, 5, 16
+ori 3, 5, 16
+xori 3, 5, 16
+load 3, 16(5)
+store 3, 16(5)
+beq 3, 5, 13
+bne 3, 5, 13
 jump acH
-
